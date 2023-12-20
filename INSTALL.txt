@@ -1,0 +1,26 @@
+conda create --name langchain python=3.11 nomkl
+
+conda activate langchain
+
+pip install langchain
+pip install beautifulsoup4
+conda install -c pytorch faiss-cpu
+pip install tiktoken
+pip install sentence_transformers
+conda install jupyterhub
+conda install jupyter
+pip install langchainhub
+pip install lxml
+pip install pypdf
+pip install ps4
+
+sudo apt-get install libopenblas-dev
+sudo apt-get install pkg-config
+
+CMAKE_ARGS="-DLLAMA_BLAS=ON -DLLAMA_BLAS_VENDOR=OpenBLAS" pip install llama-cpp-python
+
+pip install streamlit
+pip install 'transformers[torch]'
+pip install sounddevice
+pip install whisper
+
